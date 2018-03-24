@@ -1,0 +1,85 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height: auto;
+    margin: auto;
+    width: auto;
+    display: block;
+}
+
+body{
+    background-color: beige;
+    min-height: 55px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+h3{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: "Times new roman", sans-serif;
+    font-size: 14px;    
+}
+
+.navbar {
+    background-color: black;
+    border: 0;
+    font-size: 16px !important;
+    letter-spacing: 2px;
+    font-family: "Times new roman",sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #f5f5dc !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff!important;
+    background-color: black!important;
+}
+
+.navbar-default .navbar-toggle {
+    color: #fff !important;
+}
+
+.textbackground{
+    text-align: justify;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.link{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #f5f5dc;
+}
+label{
+    padding-left: 20px; 
+}
+.body-index{
+    background-color: beige;
+    min-height: 55px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    -webkit-box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.5);
+}
+.html-hitta, .body-hitta{
+    margin: 0;
+    height: 100%;
+    padding-bottom: 0px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
